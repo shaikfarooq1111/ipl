@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#add-players-container{
+    display: grid;
+    grid-row-gap: 10px;
+    max-width: 200px;
+    
+}
+nav{
+    padding: 20px 280px;
+    background-color: rgb(79, 231, 125);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+}
+button{
+    border: 0px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    color: seashell;
+    background-color:grey;
+}
+#content-wrapper{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#teams-container{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    justify-content: space-evenly;
+}
+.teamcard{
+    width: 25%;
+    height: 40%;
+    margin: 20px;
+    padding: 50px 20px;
+    background-color: brown;
+
+    text-align: center;
+    
+    text-transform: uppercase;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid powderblue;
+}
+/*search card*/
+#charactersList {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#card{
+    /* display: inline-block; */
+    
+    
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(94, 33, 163, 0.479);
+    width: 300px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 2px solid rgb(193, 189, 209);
+    
+}
+
+
+/* //details page */
+#teampage{
+    padding: 50px;
+    text-align: center;
+    color: blueviolet;
+    
+    
+}
+#teampage #welcome{
+    color: maroon;
+    font-size: 2rem;
+    padding-bottom: 30px;
+}
+
+#playerCard{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    background-color: rgba(255, 255, 0, 0.103);
+}
+.onecard{
+    box-sizing: border-box;
+    margin: 30px;
+    background-color: mistyrose;
+    width: 300px;
+    
+    border-radius: 40px;
+
+}
+
+/* player details page*/
+#player-container{
+    background-color: navajowhite;
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#leftsection{
+    background-color: rgba(220, 220, 224, 0.61);
+    width: 50%;
+    padding: auto auto;
+    border-radius: 30px;
+}
+#leftsection img{
+    
+    padding: 10% 30%;
+}
+#rightsection {
+    color: tomato;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    line-height: 4rem;
+    
+}

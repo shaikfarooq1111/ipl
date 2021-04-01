@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <script src="./index.js" async defer></script>
+        <header>
+            <nav>
+                <div>
+                    <h3>HOME</h3>
+                </div>
+                <div class="container">
+                    <div id="searchWrapper">
+                        <input
+                            type="text"
+                            name="searchBar"
+                            id="searchBar"
+                            placeholder="search for a character"
+                        />
+                    </div>
+                    
+                </div>
+                
+                <div>
+                    <button onclick="addPlayers()">Add Players</button>
+                </div>
+            </nav>
+        </header>
+        <main>
+            
+            <div id="charactersList">
+
+            </div>
+        
+            
+            <div id="content-wrapper">
+                <div id="teams-container">
+                    <div id="card csk" class="teamcard">
+                        <a href="./details.html" onclick="onclickedcsk()">Chennai Super Kings</a>
+                    </div>
+                    <div id="card mi" class="teamcard">
+                        <a href="./details.html" onclick="onclickedmi()">Mumbai Indians</a>
+                    </div>
+                    <div id="card rr" class="teamcard">
+                        <a href="./details.html" onclick="onclickedrr()">Rajasthan Royals</a>
+                    </div>
+                    <div id="card dc" class="teamcard">
+                        <a href="./details.html" onclick="onclickeddc()">Delhi Capitals</a>
+                    </div>
+                    <div id="card kkr" class="teamcard">
+                        <a href="./details.html" onclick="onclickedkkr()">Kolkata Kinght riders</a>
+                    </div>
+                    <div id="card kep" class="teamcard">
+                        <a href="./details.html" onclick="onclickedkep()">kings 11 Punjab</a>
+                    </div>
+                    <div id="card srh" class="teamcard">
+                        <a href="./details.html" onclick="onclickedsrh()">Sunrisers Hyderabad</a>
+                    </div>
+                </div>
+                <div id="add-players-container">
+                    <input type="text" id="player-id" placeholder="id">
+                    <input type="text" id="player-name" placeholder="name">
+                    <input type="text" id="player-team" placeholder="team">
+                    <input type="text" id="player-price" placeholder="price">
+                    <input type="text" id="player-status" placeholder="status">
+                    <input type="text" id="player-description" placeholder="description">
+                    <input type="text" id="img-url" placeholder="url">
+                    <input type="submit" id="player-details-submit" onclick="saveData()" value="ADD">
+                    <input type="submit" id="close-submit" onclick="closeSubmit()" value="CLOSE">
+                </div>
+            </div>
+            
+
+
+
+
+        </main>
+        
+        
+    </body>
+</html>
